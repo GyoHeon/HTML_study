@@ -3,9 +3,47 @@
     <head>
         <title>HTML Study</title>
         <meta charset="utf-8">
+        <style>
+            body{
+                margin:0;
+            }
+            a {color:red; text-decoration: none;}
+            h1 {
+              text-align: center;
+              border-bottom:1px gray solid;
+              padding:20px;
+              margin:0;
+            }
+            ol {
+                border-right: 1px gray solid;
+                width:100px;
+                margin:0;
+                padding:20px;
+            }
+            .saw {color:gray;}
+            #active {text-decoration: underline;}
+            #grid {
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            @media(max-width:800px) {
+                #grid {
+                    display: block;
+                }
+                ol {
+                    border-right: none;
+                }
+            }
+        </style>
     </head>
     <body>
         <h1><a href="index.html">HTML Study</a></h1>
+        <div id="grid">
+        <ol>
+            <li><a href="head.html" class="saw" id="active">head</a></li>
+            <li><a href="image.html" class="saw">image</a></li>
+            <li><a href="list.html" class="saw">list</a></li>
+        </ol>
         <img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.n
 et%2Fdn%2F3uhPk%2Fbtrf1iY3te6%2FkkRg2y3VB6sNzVb4I1AEMK%2Fimg.png'>
     </body>
