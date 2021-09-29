@@ -20,6 +20,12 @@ ol {
     display: grid;
     grid-template-columns: 150px 1fr;
 }
+#main {
+    grid: none;
+}
+#another {
+    border-right: none;
+}
 @media(max-width:800px) {
     #grid {
         display: block;
