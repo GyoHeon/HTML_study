@@ -1,6 +1,9 @@
 body {
   margin: 0;
   background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 a {
   text-decoration: none;
@@ -23,6 +26,9 @@ ol {
 .saw {
   color: blueviolet;
 }
+.menu {
+  width: "100px";
+}
 #name {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -31,11 +37,6 @@ ol {
   color: plum;
   background-color: gray;
   font-display: blue;
-}
-#grid {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  color: aqua;
 }
 #another {
   border-right: none;
