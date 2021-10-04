@@ -1,8 +1,7 @@
 body {
-  margin: 0;
+  margin: 30px;
   background-color: gray;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 a {
@@ -27,7 +26,10 @@ ol {
   color: blueviolet;
 }
 .menu {
+  margin: 30px;
+  left: 200px;
   width: "100px";
+  color: aqua;
 }
 #name {
   display: grid;
@@ -41,4 +43,9 @@ ol {
 #another {
   border-right: none;
   background-color: gray;
+  display: block;
+}
+
+#contents {
+  display: block;
 }
