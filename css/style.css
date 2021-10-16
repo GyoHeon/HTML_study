@@ -14,15 +14,16 @@ a:visited {
 .menu {
   display: flex;
   justify-content: space-between;
-  padding: 40px 40px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  background-color: rgba(0, 0, 0, 0.05);
+  padding: 40px 20px 40px 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.04);
 }
 .menu__column {
   font-size: 20px;
-}
-.menu__column:last-child {
   margin-right: 40px;
+}
+.menu__column a {
+  margin: 0 60px;
 }
 .main {
   display: flex;
